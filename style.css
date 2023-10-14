@@ -1,0 +1,70 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    width: 50%;
+    background-color: #c8b89e;
+    padding: 20px;
+    color: #f0f8ff;
+}
+
+.social i {
+    font-size: 24px;
+}
+
+.social a {
+    color: #c8b89e;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #ae9b7d;
+}
+
+.main h2 {
+    margin: 0;
+}
+
+.main a {
+    color: black;
+    text-decoration: none;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}
+
+.courses {
+    padding-top: 30px;
+}
+
+.social,
+.main,
+.courses,
+.footer {
+    background-color: #f0f8ff;
+    width: 50%;
+    padding: 0 20px;
+    color: #ae9b7d;
+}
+
+.title::before {
+    content: '⭐';
+}
+
+form {
+    width: 200px;
+    text-align: left;
+    border: 1px solid pink;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid pink;
+    border-radius: 5px;
+}

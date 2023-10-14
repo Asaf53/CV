@@ -6,23 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Asaf Rushiti</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
-    <style>
-        html {
-            color: aliceblue;
-        }
-        form{
-            width: 200px; 
-            text-align: left;
-        }
-        a{
-            color: aqua;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <table width="50%" align="center" bgcolor="#183042" cellpadding="20">
+    <table class="header" align="center">
         <tr>
             <td valign="top">
                 <h1>Asaf Rushiti</h1>
@@ -39,24 +27,36 @@
             </td>
         </tr>
     </table>
-    <table bgcolor="#0C1829" width="50%" align="center" cellpadding="20">
+    <table class="social" align="center">
         <tr>
             <td width="50%" align="left">
-                <h4><i class='bx bxl-gmail'></i> asafrushiti3@gmail.com</h4>
-                <h4><i class='bx bxs-map'></i> Gostivar / North Macedonia</h4>
-                <h4><i class='bx bxl-linkedin'></i> Asaf Rushiti</h4>
+                <a href="mailto:asafrushiti3@gmail.com">
+                    <h4><i class='bx bxl-gmail'></i> asafrushiti3@gmail.com</h4>
+                </a>
+                <a href="#">
+                    <h4><i class='bx bxs-map'></i> Gostivar / North Macedonia</h4>
+                </a>
+                <a href="https://www.linkedin.com/in/asaf-rushiti-a98706216/">
+                    <h4><i class='bx bxl-linkedin'></i> Asaf Rushiti</h4>
+                </a>
             </td>
             <td width="50%" align="left">
-                <h4><i class='bx bx-mobile'></i> 070-832-727</h4>
-                <h4><i class='bx bxl-twitter'></i> @asaf_rushiti</h4>
-                <h4><i class='bx bxl-github'></i> Asaf53</h4>
+                <a href="tel:070832727">
+                    <h4><i class='bx bx-mobile'></i> 070-832-727</h4>
+                </a>
+                <a href="https://twitter.com/asaf_rushiti">
+                    <h4><i class='bx bxl-twitter'></i> @asaf_rushiti</h4>
+                </a>
+                <a href="https://github.com/Asaf53">
+                    <h4><i class='bx bxl-github'></i> Asaf53</h4>
+                </a>
             </td>
         </tr>
     </table>
-    <table bgcolor="#0C1829" width="50%" align="center" cellpadding="20">
+    <table class="main" align="center">
         <tr>
             <td width="80%">
-                <h2>*Professional Experience</h2>
+                <h2 class="title">Professional Experience</h2>
                 <h3>School Management System - A High School Diploma Project</h3>
                 <p>The School Management System is a web application I developed as part of my high school diploma
                     project. This real-world application utilizes Laravel, HTML, CSS, PHP, and Bootstrap technologies to
@@ -98,13 +98,13 @@
             </td>
         </tr>
     </table>
-    <table bgcolor="#0C1829" width="50%" align="center" cellpadding="20">
+    <table class="courses" align="center">
         <tr>
             <td>
-                <h2>Learn HTML5 and CSS3</h2>
+                <h2 class="title">Courses</h2>
             </td>
         </tr>
-        <tr>
+        <tr align="center">
             <td>
                 <iframe width="400" height="200" src="https://www.youtube.com/embed/kUMe1FH4CHE?si=uOS5pjCOe2ktUusd"
                     title="YouTube video player" frameborder="0"
@@ -119,7 +119,7 @@
             </td>
         </tr>
     </table>
-    <table bgcolor="#0C1829" width="50%" align="center">
+    <table class="footer" align="center">
         <tr>
             <td align="center">
                 <h3>Let's create something MEANINGFUL</h3>
@@ -129,20 +129,20 @@
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email">
                     <label for="msg">Message</label>
-                    <textarea name="msg" id="msg" cols="20" rows="2"></textarea>
+                    <textarea name="msg" id="msg"></textarea>
                     <button type="submit">Contact ME</button>
                 </form>
             </td>
         </tr>
     </table>
-    <table bgcolor="#0C1829" width="50%" align="center">
+    <!-- <table bgcolor="#0C1829" width="50%" align="center">
         <tr>
             <td align="center">
                 <p>Working Form with FormSpree <a href="https://formspree.io/" target="_blank">LINK</a></p>
                 <p>Proof <a href="Form.png" target="_blank">Here!</a></p>
             </td>
         </tr>
-    </table>
+    </table> -->
 </body>
 
 </html>
