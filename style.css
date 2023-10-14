@@ -22,7 +22,21 @@ html {
     color: #ae9b7d;
 }
 
-.main h2 {
+.tech ul{
+    padding: 0;
+}
+
+.tech ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #ae9b7d;
+    color: #f0f8ff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.main h2, .tech h2 {
     margin: 0;
 }
 
@@ -36,13 +50,14 @@ html {
 }
 
 .courses {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .social,
 .main,
 .courses,
-.footer {
+.footer,
+.tech {
     background-color: #f0f8ff;
     width: 50%;
     padding: 0 20px;
@@ -54,17 +69,47 @@ html {
 }
 
 form {
-    width: 200px;
-    text-align: left;
-    border: 1px solid pink;
+    margin-top: 30px;
+    width: 300px;
+    text-align: center;
     padding: 20px;
-    border-radius: 10px;
+    background-color: #c8b89e;
+    border: 5px solid #ae9b7d;
+}
+
+form h3{
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
+    color: #f0f8ff;
 }
 
 input,
 textarea {
-    width: 100%;
+    width: 80%;
     background-color: transparent;
-    border: 1px solid pink;
-    border-radius: 5px;
+    border: 0;
+    border-bottom: 1px solid #f0f8ff;
+    height: 30px;
+    font-size: 15px;
+    color: #f0f8ff;
+    padding-top: 15px;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: #f0f8ff;
+}
+
+form button{
+    background-color: transparent;
+    border: 2px solid #f0f8ff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: #f0f8ff;
+    text-align: center;
+    cursor: pointer;
+}   
+form button:hover{
+    background-color: #ae9b7d;
 }
